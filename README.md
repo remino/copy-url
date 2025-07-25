@@ -28,19 +28,20 @@ it, and copy `Copy URL.app` in your `Applications` folder.
 
 You can also clone the repo and build the app from its code yourself with Xcode.
 
-### 👋 First time opening?
+## 👋 First time opening?
 
-Because this app isn’t notarized (yet), macOS will show a warning.
+Because this app isn’t notarized (yet), macOS will show a warning the first time
+you try to open it.
 
 To open it anyway:
 
-#### Before macOS 15
+### Before macOS 15
 
 1. Right-click the app and choose "Open".
 2. Click "Open" in the security prompt.
 3. From then on, it will open normally.
 
-#### On macOS 15 and later
+### On macOS 15 and later
 
 1. Double-click "Copy URL.app" — you'll see an alert that it can't be opened.
 2. Open System Settings → Privacy & Security.
