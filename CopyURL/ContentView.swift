@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  CopyURL
 //
-//  Created by V on 2025-07-25.
+//  Created by Rémino Rem on 2025-07-25.
 //
 
 import SwiftUI
