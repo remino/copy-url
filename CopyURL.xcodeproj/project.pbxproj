@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A5C44B0D2E33BF3300925B23 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5C44B0C2E33BF3300925B23 /* Info.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A5C44AF02E33BD7C00925B23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A5C44AE12E33BD7B00925B23 /* CopyURL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyURL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C44AE12E33BD7B00925B23 /* Copy URL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copy URL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C44AEF2E33BD7C00925B23 /* CopyURLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyURLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C44AF92E33BD7C00925B23 /* CopyURLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyURLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C44B0C2E33BF3300925B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		A5C44AD82E33BD7B00925B23 = {
 			isa = PBXGroup;
 			children = (
+				A5C44B0C2E33BF3300925B23 /* Info.plist */,
 				A5C44AE32E33BD7B00925B23 /* CopyURL */,
 				A5C44AF22E33BD7C00925B23 /* CopyURLTests */,
 				A5C44AFC2E33BD7C00925B23 /* CopyURLUITests */,
@@ -85,7 +91,7 @@
 		A5C44AE22E33BD7B00925B23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5C44AE12E33BD7B00925B23 /* CopyURL.app */,
+				A5C44AE12E33BD7B00925B23 /* Copy URL.app */,
 				A5C44AEF2E33BD7C00925B23 /* CopyURLTests.xctest */,
 				A5C44AF92E33BD7C00925B23 /* CopyURLUITests.xctest */,
 			);
@@ -114,7 +120,7 @@
 			packageProductDependencies = (
 			);
 			productName = CopyURL;
-			productReference = A5C44AE12E33BD7B00925B23 /* CopyURL.app */;
+			productReference = A5C44AE12E33BD7B00925B23 /* Copy URL.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A5C44AEE2E33BD7C00925B23 /* CopyURLTests */ = {
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C44B0D2E33BF3300925B23 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +405,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -405,7 +413,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.remino.CopyURL;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Copy URL";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -423,6 +431,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -430,7 +439,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.remino.CopyURL;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Copy URL";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
