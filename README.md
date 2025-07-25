@@ -2,7 +2,7 @@
 
 # CopyURL.app
 
-<https://github.com/remino/copy-url-app>
+<https://github.com/remino/copy-url>
 
 macOS App to copy URL to clipboard
 
