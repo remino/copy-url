@@ -1,5 +1,5 @@
-![Assets/icon.png](CopyURL icon of a clipboard with a link chain in the middle
-of it)
+![CopyURL icon of a clipboard with a link chain in the middle
+of it](Assets/icon.png)
 
 # CopyURL.app
 
