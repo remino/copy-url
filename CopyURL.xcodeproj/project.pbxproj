@@ -412,7 +412,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.remino.CopyURL;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.remino.copy-url";
 				PRODUCT_NAME = "Copy URL";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -438,7 +438,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.remino.CopyURL;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.remino.copy-url";
 				PRODUCT_NAME = "Copy URL";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
