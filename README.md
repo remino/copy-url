@@ -34,6 +34,17 @@ Because this app isn’t notarized (yet), macOS will show a warning.
 
 To open it anyway:
 
-1. Right-click the app and choose "Open"
-2. Click "Open" in the security prompt
-3. From then on, it will open normally
+#### Before macOS 15
+
+1. Right-click the app and choose "Open".
+2. Click "Open" in the security prompt.
+3. From then on, it will open normally.
+
+#### On macOS 15 and later
+
+1. Double-click "Copy URL.app" — you'll see an alert that it can't be opened.
+2. Open System Settings → Privacy & Security.
+3. Scroll to the bottom and click "Open Anyway" beside this app.
+4. Confirm the second prompt to launch it.
+
+Once this is done, the app will open normally from then on.
